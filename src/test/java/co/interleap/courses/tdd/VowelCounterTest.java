@@ -21,4 +21,9 @@ public class VowelCounterTest {
         assertEquals(4,new VowelCounter().getNumber("aaii"));
     }
 
+    @Test
+    public void mixedWord(){
+        assertEquals(2, new VowelCounter().getNumber("Nidhi"));
+    }
+
 }
